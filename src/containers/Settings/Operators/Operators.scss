@@ -1,0 +1,94 @@
+@import "src/containers/Main/Variables";
+
+.ant-select-multiple .ant-select-selection-item-content{
+  margin-right: 16px;
+}
+
+.contentOperators{
+
+  .ant-table-thead > tr > th{
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 0 16px;
+    height: 38px;
+    color: $defaultColor;
+  }
+
+  th:last-child{
+    width: 160px;
+  }
+
+  .ant-table-cell{
+
+    button{
+      width: fit-content;
+      height: 30px;
+      padding: 0 15px;
+      border-radius: 0.3rem;
+      margin-left: auto;
+      color: $colorIcons;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      border: 1px solid $borderColor;
+
+      p{
+        margin-bottom: 0;
+      }
+
+      svg{
+        margin-right: 10px;
+        fill: $colorIcons;
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}
+
+.formAddOperator{
+
+  .customDefaultSelect{
+    width: 100% !important;
+
+    .ant-select{
+      width: 100% !important;
+
+      .ant-select-selection-item-remove{
+
+        svg{
+          right: 2px;
+          fill: grey;
+          width: 10px;
+          height: 10px;
+        }
+      }
+
+      .ant-select-selector{
+        height: 38px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .rmLabel{
+
+    .defaultInput:last-child label{
+      opacity: 0;
+    }
+  }
+
+  .doubleInput{
+    display: flex;
+
+    .defaultInput{
+      width: 200px;
+    }
+
+    .defaultInput:last-child{
+      margin-left: 20px;
+    }
+  }
+}
