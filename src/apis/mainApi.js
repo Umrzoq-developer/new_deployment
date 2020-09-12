@@ -1,1 +1,1 @@
-export const mainApi = 'http://api.turon.loc';
+export const mainApi = "https://api.logi.uz";
